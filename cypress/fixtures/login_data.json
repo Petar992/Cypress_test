@@ -1,0 +1,7 @@
+{
+    "correct_email": "jovanovicpetar92@gmail.com",
+    "correct_password": "constel123",
+    "wrong_email": "jovanovicpetar92",
+    "wrong_password": "constel1234",
+    "wrong_password_5_characters": "const"
+}
