@@ -71,6 +71,10 @@ describe('Log In Tests', () => {
         ln.clickSubmit();
         
         cy.get('h1').should('have.text','Home');
+
+        cy.get(':nth-child(2) > .home__header__link').click();
+
+        cy.get('#constellation-logo').should('be.visible');
         
     })
 })
